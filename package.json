@@ -1,0 +1,23 @@
+{
+  "name": "mern-shop",
+  "version": "1.0.0",
+  "description": "MERN SHOP",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustagcosta/mern-shop.git"
+  },
+  "keywords": [],
+  "author": "gustavogcosta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustagcosta/mern-shop/issues"
+  },
+  "homepage": "https://github.com/gustagcosta/mern-shop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
