@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col, Image, ListGroup, Card, Button } from 'react-bootstrap';
 import Rating from '../components/Rating';
-import axios from "axios";
+import axios from 'axios';
 
 const ProductScreen = ({ match }) => {
   const [product, setProduct] = useState({});
@@ -20,7 +20,7 @@ const ProductScreen = ({ match }) => {
   return (
     <>
       <Link className='btn btn-light my-3' to='/'>
-        Voltar  
+        Voltar
       </Link>
       <Row>
         <Col md={6}>
